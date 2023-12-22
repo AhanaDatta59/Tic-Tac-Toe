@@ -4,7 +4,7 @@
 }
 
 body{
-   background-color: #548687;
+   background-color: #a4fbfc;
    text-align: center;
 }
 
@@ -32,11 +32,28 @@ body{
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
-    color:rgb(164, 27, 27);
+    color:rgb(242, 255, 200);
+    background-color: black;
 }
 .rst-btn{
     padding: 0.5rem;
     font-size: 1.25rem;
     background-color: black;
     color: #ffffff;
+}
+.new-btn{
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: #ffffff;
+}
+#msg{
+    color: black;
+    font-size: 8vmin;
+}
+.msg-container{
+    height: 20vmin;
+}
+.hide{
+    display:none;
 }
